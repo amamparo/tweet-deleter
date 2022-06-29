@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+boto3 = "*"
+psycopg2-binary = "*"
+smart-open = "*"
+injector = "*"
+
+[dev-packages]
+aws-cdk-core = "*"
+aws-cdk-aws-iam = "*"
+aws-cdk-aws-ec2 = "*"
+aws-cdk-aws-sqs = "*"
+aws-cdk-aws-lambda = "*"
+aws-cdk-aws-lambda-event-sources = "*"
+aws-cdk-aws-events = "*"
+aws-cdk-aws-events-targets = "*"
+python-dotenv = "*"
+
+[requires]
+python_version = "3.8"

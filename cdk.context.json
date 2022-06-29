@@ -1,0 +1,151 @@
+{
+  "vpc-provider:account=664826267917:filter.vpc-id=vpc-6952a112:region=us-east-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-6952a112",
+    "vpcCidrBlock": "10.4.0.0/16",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-fd410cc2",
+            "cidr": "10.4.2.0/24",
+            "availabilityZone": "us-east-1e",
+            "routeTableId": "rtb-64130d19"
+          },
+          {
+            "subnetId": "subnet-f614d9f9",
+            "cidr": "10.4.1.0/24",
+            "availabilityZone": "us-east-1f",
+            "routeTableId": "rtb-64130d19"
+          }
+        ]
+      }
+    ]
+  },
+  "security-group:account=664826267917:region=us-east-1:securityGroupId=sg-3e2b4d49": {
+    "securityGroupId": "sg-3e2b4d49",
+    "allowAllOutbound": false
+  },
+  "vpc-provider:account=338321748833:filter.vpc-id=vpc-052044eda545a0301:region=us-east-2:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-052044eda545a0301",
+    "vpcCidrBlock": "10.133.0.0/16",
+    "availabilityZones": [],
+    "vpnGatewayId": "vgw-0b56cb328918bd6e5",
+    "subnetGroups": [
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-0a8176e0762891d6d",
+            "cidr": "10.133.0.0/23",
+            "availabilityZone": "us-east-2a",
+            "routeTableId": "rtb-0d6f4071de1bd7d1f"
+          },
+          {
+            "subnetId": "subnet-083b545172634b091",
+            "cidr": "10.133.2.0/23",
+            "availabilityZone": "us-east-2b",
+            "routeTableId": "rtb-0d6f4071de1bd7d1f"
+          },
+          {
+            "subnetId": "subnet-0e6d0cfb48bbd8e37",
+            "cidr": "10.133.4.0/23",
+            "availabilityZone": "us-east-2c",
+            "routeTableId": "rtb-0d6f4071de1bd7d1f"
+          }
+        ]
+      },
+      {
+        "name": "Private",
+        "type": "Private",
+        "subnets": [
+          {
+            "subnetId": "subnet-073e98e9fbe47709f",
+            "cidr": "10.133.128.0/20",
+            "availabilityZone": "us-east-2a",
+            "routeTableId": "rtb-07ae9e95cd7bed94d"
+          },
+          {
+            "subnetId": "subnet-0a4d646684fe3b088",
+            "cidr": "10.133.144.0/20",
+            "availabilityZone": "us-east-2b",
+            "routeTableId": "rtb-0d679a61c1355adb9"
+          },
+          {
+            "subnetId": "subnet-0a204939f75579cd4",
+            "cidr": "10.133.160.0/20",
+            "availabilityZone": "us-east-2c",
+            "routeTableId": "rtb-00438992e4b526550"
+          }
+        ]
+      }
+    ]
+  },
+  "security-group:account=338321748833:region=us-east-2:securityGroupName=order-chains-database:vpcId=vpc-052044eda545a0301": {
+    "securityGroupId": "sg-05da26bd216c1fb40",
+    "allowAllOutbound": false
+  },
+  "vpc-provider:account=071333662398:filter.vpc-id=vpc-0ce686e50fcf04b28:region=us-east-2:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-0ce686e50fcf04b28",
+    "vpcCidrBlock": "10.135.0.0/16",
+    "availabilityZones": [],
+    "vpnGatewayId": "vgw-0a0b5b63c2b1803fa",
+    "subnetGroups": [
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-0a0f17f12989da516",
+            "cidr": "10.135.0.0/23",
+            "availabilityZone": "us-east-2a",
+            "routeTableId": "rtb-0e08c18a689801f7c"
+          },
+          {
+            "subnetId": "subnet-04c00fac29ebc722d",
+            "cidr": "10.135.2.0/23",
+            "availabilityZone": "us-east-2b",
+            "routeTableId": "rtb-0e08c18a689801f7c"
+          },
+          {
+            "subnetId": "subnet-00160a8201b418504",
+            "cidr": "10.135.4.0/23",
+            "availabilityZone": "us-east-2c",
+            "routeTableId": "rtb-0e08c18a689801f7c"
+          }
+        ]
+      },
+      {
+        "name": "Private",
+        "type": "Private",
+        "subnets": [
+          {
+            "subnetId": "subnet-07f80554708b47def",
+            "cidr": "10.135.128.0/20",
+            "availabilityZone": "us-east-2a",
+            "routeTableId": "rtb-07e76b4ee1b1cb283"
+          },
+          {
+            "subnetId": "subnet-0943bd5d0dbad121b",
+            "cidr": "10.135.144.0/20",
+            "availabilityZone": "us-east-2b",
+            "routeTableId": "rtb-03cf76f9cb171ea7c"
+          },
+          {
+            "subnetId": "subnet-01db2dc8da06f7f54",
+            "cidr": "10.135.160.0/20",
+            "availabilityZone": "us-east-2c",
+            "routeTableId": "rtb-05aef99237da94e08"
+          }
+        ]
+      }
+    ]
+  },
+  "security-group:account=071333662398:region=us-east-2:securityGroupName=order-chains-database:vpcId=vpc-0ce686e50fcf04b28": {
+    "securityGroupId": "sg-001172b7947874c29",
+    "allowAllOutbound": false
+  }
+}
